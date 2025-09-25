@@ -31,24 +31,24 @@ A Typing Speed Tester is an application that measures how fast and accurately a 
 
 # Project Structure
 
-Typing Speed tester/
-|
-|---src/          #core application logic
-|   |---logic.py. #Business logic and tasks
-operations
-|.  |__db.py.     #Database operations
-|
-|---API/          #Backend API
-|   |__main.py    #FASTAPI endpoints
-|
-|---frontend/     #Frontend Application
-|   |__app.py     #Streamlit web interface
-|
-|___requirements.txt    #python Dependencies
-|
-|___README.md     #Project Documentation
-|
-|___.env        #python variables
+    Typing Speed tester/
+    |
+    |---src/          #core application logic
+    |   |---logic.py. #Business logic and tasks
+    operations
+    |.  |__db.py.     #Database operations
+    |
+    |---API/          #Backend API
+    |   |__main.py    #FASTAPI endpoints
+    |
+    |---frontend/     #Frontend Application
+    |   |__app.py     #Streamlit web interface
+    |
+    |___requirements.txt    #python Dependencies
+    |
+    |___README.md     #Project Documentation
+    |
+    |___.env        #python variables
 
 ## Quick Start
 
@@ -137,7 +137,7 @@ this app will be available at `http://localhost:8000`
 
 ## Key Components
 
-1 .**`src/db.py`**: Database operations
+1. **`src/db.py`**: Database operations
 
 -   Handles all CRUD operations with Supabase
 
@@ -162,4 +162,12 @@ this app will be available at `http://localhost:8000`
 - **Advanced Analytics** – Show WPM, accuracy trends, keystroke dynamics, and error heatmaps.
 
 - **Mobile-Friendly Support** – Optimize the app for mobile devices and offline practice.
+
+## support
+
+if you are having any queries:
+
+- **contact**:9391544253
+
+- **email**:dhanaushyadav0099@gmail.com
 
