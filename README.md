@@ -117,8 +117,8 @@ This app will open in your browser at `http://localhost:8501`
 
 # FastAPI Backend
 
-cd api
-python main.py
+cd API
+uvicorn API.main:app --reload
 this app will be available at `http://localhost:8000`
 
 ## How to use
@@ -150,6 +150,14 @@ this app will be available at `http://localhost:8000`
 ## common issues
 - make sure you have installed all dependencies:`pip install -r requirements.txt`
     -Check that you are running from correct directory
+
+- ImportError: email-validator is not installed
+    - We now use a simple string email with basic validation in `API/main.py` (no extra dependency needed).
+    - If you prefer strict RFC validation, install the extra:
+      
+      ```bash
+      pip install 'pydantic[email]'
+      ```
 
 ## Future Enhancement
 

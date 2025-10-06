@@ -1,5 +1,32 @@
-streamlit>=1.29
-supabase>=2.0.2
-fastapi>=0.104.1
-uvicorn>=0.24.0
-python-dotenv>=1.0.0
+# Core Dependencies
+python-dotenv==1.0.0
+
+# Supabase Client
+# Use postgrest-py instead of supabase for better Python 3.13 compatibility
+postgrest==0.16.11
+realtime==2.0.5
+storage3==0.7.7
+gotrue==2.9.1
+supabase==2.6.0
+
+# FastAPI Backend - use latest versions for Python 3.13
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.10.3
+pydantic-core==2.27.1
+python-multipart==0.0.17
+
+# Streamlit Frontend - latest version
+streamlit==1.40.0
+plotly==5.24.1
+
+# Data handling - use latest pandas for Python 3.13
+pandas==2.2.3
+numpy==2.1.3
+
+# Additional Utilities
+requests==2.32.3
+httpx==0.27.2
+
+# Note: If you still have issues with Python 3.13, 
+# please use Python 3.11 or 3.12 for guaranteed compatibility
