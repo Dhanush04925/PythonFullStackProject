@@ -1,7 +1,7 @@
-# Title:Typing Speed Tester 
+# Title: TypeX
 
 # Description:
-A Typing Speed Tester is an application that measures how fast and accurately a user can type a given text. It can track typing speed (words per minute), accuracy, and past performance over time. Using a database allows storing user scores, high scores, and historical progress for analysis.
+TypeX is an application that measures how fast and accurately a user can type a given text. It can track typing speed (words per minute), accuracy, and past performance over time. Using a database allows storing user scores, high scores, and historical progress for analysis.
 
 ## features
 
@@ -31,7 +31,7 @@ A Typing Speed Tester is an application that measures how fast and accurately a 
 
 # Project Structure
 
-    Typing Speed tester/
+    TypeX/
     |
     |---src/          #core application logic
     |   |---logic.py. #Business logic and tasks

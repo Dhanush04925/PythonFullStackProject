@@ -1,5 +1,5 @@
 """
-Streamlit Frontend for Typing Speed Tester
+Streamlit Frontend for TypeX
 Interactive web interface for typing tests
 """
 
@@ -22,7 +22,7 @@ except Exception as e:
 
 # Page configuration
 st.set_page_config(
-    page_title="Typing Speed Tester",
+    page_title="TypeX",
     page_icon="⌨️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -216,7 +216,7 @@ def save_test_result(wpm, accuracy):
 
 def main():
     # Header
-    st.markdown('<div class="main-header">⌨️ Typing Speed Tester</div>', unsafe_allow_html=True)
+    st.markdown('<div class="main-header">⌨️ TypeX</div>', unsafe_allow_html=True)
     st.markdown("### Improve your typing speed and accuracy!")
     
     # Sidebar - User Management

@@ -1,6 +1,6 @@
 """
-Streamlit Frontend for Typing Speed Tester
-Interactive web interface for typing tests
+FastAPI Backend for TypeX
+REST API endpoints for typing test data
 """
 
 import streamlit as st
