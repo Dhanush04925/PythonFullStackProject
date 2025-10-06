@@ -4,10 +4,11 @@ python-dotenv==1.0.0
 # Supabase Client
 # Use postgrest-py instead of supabase for better Python 3.13 compatibility
 postgrest==0.16.11
-realtime==2.0.5
+realtime==1.0.4
 storage3==0.7.7
 gotrue==2.9.1
 supabase==2.6.0
+
 
 # FastAPI Backend - use latest versions for Python 3.13
 fastapi==0.115.0
